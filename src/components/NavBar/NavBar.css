@@ -1,0 +1,12 @@
+nav {
+  background-color: #FFFBF5;
+  width: 180px;
+  height: 30px;
+  margin: 30px;
+  display: flex;
+}
+nav a {
+  text-decoration: none;
+  color: #424B4D;
+  margin: 5px;
+}/*# sourceMappingURL=NavBar.css.map */
