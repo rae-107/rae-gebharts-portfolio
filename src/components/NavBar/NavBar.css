@@ -1,12 +1,15 @@
 nav {
   background-color: #FFFBF5;
-  width: 180px;
-  height: 30px;
+  width: 280px;
+  height: 50px;
   margin: 30px;
   display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 nav a {
   text-decoration: none;
   color: #424B4D;
+  font-size: 24px;
   margin: 5px;
 }/*# sourceMappingURL=NavBar.css.map */
