@@ -1,6 +1,8 @@
+@use '../../../abstract/variables' as *;
+
 .home {
-  background-color: #B5A19C;
-  color: #FFFBF5;
+  background-color: $primary;
+  color: $cream;
   height: 100vh;
   width: 100vw;
   display: flex;
@@ -10,4 +12,4 @@
 
 h1 {
   margin: 0;
-}/*# sourceMappingURL=Home.css.map */
+}
