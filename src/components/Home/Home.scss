@@ -383,7 +383,8 @@
     width: 50vw
   }
 
-  .currently-working-on-container::after {
-    border-right: none;
+  .currently-working-on-container::after,
+  .currently-working-on-container::before {
+    border: none;
   }
 }
