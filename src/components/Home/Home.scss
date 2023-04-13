@@ -1,4 +1,4 @@
-@use '../../../abstract/variables' as *;
+@use "../../../abstract/variables" as *;
 
 .home {
   background-color: $primary;
@@ -9,11 +9,14 @@
   flex-direction: column;
   align-items: center;
   overflow-y: scroll;
+  text-align: center;
 }
+
+// Nav bar
 
 .nav-style-box {
   width: 35px;
-  margin: 30px 10px 0 0;
+  margin: 30px 20px 0 10px;
 }
 
 .nav-container {
@@ -28,8 +31,18 @@
   margin: 30px 20px 0 10px;
 }
 
+// Top half
+
+.top-half {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .intro-container {
-  min-height: 60vh;
+  flex-basis: 100%; // here
+  height: 60vh;
+  max-width: 350px;
   width: 80vw;
   position: relative;
   display: flex;
@@ -37,7 +50,7 @@
 }
 
 .intro-container::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 50%;
   right: 0;
@@ -48,7 +61,7 @@
 }
 
 .intro-container::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 50%;
   left: 0;
@@ -61,16 +74,16 @@
 .image-container {
   width: 80%;
   border-bottom: 1px solid $cream;
-  height: 100%;
+  height: 60vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-    h1 {
-      font-weight: 300;
-      font-size: 26px;
-      margin-top: 26px;
-    }
+  h1 {
+    font-weight: 300;
+    font-size: 26px;
+    margin-top: 26px;
+  }
 }
 
 .image {
@@ -79,20 +92,24 @@
   border-radius: 40px;
 }
 
+// Title
+
 .title-container {
-  min-height: 60vh;
+  flex-basis: 100%; //here
+  height: 60vh;
+  max-width: 350px;
   width: 80vw;
   position: relative;
   display: flex;
   justify-content: center;
-    h2 {
-      font-size: 22px;
-      font-weight: 300;  
-    }
+  h2 {
+    font-size: 22px;
+    font-weight: 300;
+  }
 }
 
 .title-container::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 50%;
   right: 0;
@@ -103,7 +120,7 @@
 }
 
 .title-container::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 50%;
   left: 0;
@@ -114,8 +131,8 @@
 }
 
 .title-border-container {
-  width: 80%;
-  height: 100%;
+  width: 280px;
+  height: 60vh;
   border-bottom: 1px solid $cream;
   display: flex;
   flex-direction: column;
@@ -128,19 +145,23 @@
   text-decoration: underline;
 }
 
+// Career Summary
+
 .career-summary-container {
-  min-height: 60vh;
+  flex-basis: 100%; // here
+  height: 60vh;
+  max-width: 350px;
   width: 80vw;
   position: relative;
   display: flex;
   justify-content: center;
-    h2 {
-      font-weight: 300;  
-    }
+  h2 {
+    font-weight: 300;
+  }
 }
 
 .career-summary-container::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 50%;
   right: 0;
@@ -151,7 +172,7 @@
 }
 
 .career-summary-container::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 50%;
   left: 0;
@@ -163,26 +184,206 @@
 
 .career-border-container {
   width: 80%;
-  height: 100%;
+  height: 60vh;
+  border-bottom: 1px solid $cream;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+.career-border-container::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+// .bottom-half {
+
+// }
+
+// Skills
+
+.skills-container {
+  width: 80vw;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  h2 {
+    font-weight: 300;
+  }
+}
+
+.skills-container::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  width: 0;
+  height: 80%;
+  border-right: 1px solid $cream;
+}
+
+.skills-container::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%);
+  width: 2px;
+  height: 80%;
+  border-left: 1px solid $cream;
+}
+
+.skills-border-container {
+  width: 80%;
+  // height: 500px;
   border-bottom: 1px solid $cream;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
-@media screen and (min-width: 500px) {
-  // .image {
-  //   width: 360px;
-  //   height: 360px;
-  // }
-
-  // .image-container {
-  //   h1 {
-  //     font-size: 36px;
-  //   }
-  // }
+.currently-working-on-container {
+  width: 80vw;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  h2 {
+    font-weight: 300;
+  }
 }
 
-@media screen and (min-width: 700px) {
+.currently-working-on-container::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  width: 0;
+  height: 80%;
+  border-right: 1px solid $cream;
+}
 
+.currently-working-on-container::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%);
+  width: 2px;
+  height: 80%;
+  border-left: 1px solid $cream;
+}
+
+.currently-working-on-border-container {
+  width: 80%;
+  // height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+// Media at 600px
+
+@media screen and (min-width: 600px) {
+  .top-half {
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .intro-container {
+    width: 40vw;
+    flex-basis: 50%;
+  }
+
+  .intro-container::before {
+    border: none;
+  }
+
+  .title-container {
+    width: 40vw;
+    flex-basis: 50%;
+  }
+
+  .title-container::after,
+  .title-container::before {
+    border: none;
+  }
+
+  .career-summary-container {
+    flex-basis: 100%;
+    max-width: 100vw;
+  }
+
+  .career-border-container {
+    width: 80vw;
+  }
+}
+
+// Media at 900px
+
+@media screen and (min-width: 900px) {
+  .top-half {
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  .intro-container {
+    width: 33vw;
+    order: 2;
+  }
+
+  .intro-container::before {
+    border-left: 1px solid $cream;
+  }
+
+  .title-container {
+    max-width: 33vw;
+
+    order: 1;
+  }
+
+  .title-border-container {
+    width: 80vw;
+  }
+
+  .career-summary-container {
+    order: 3;
+    max-width: 33vw;
+  }
+
+  .career-summary-container::after,
+  .career-summary-container::before {
+    border: none;
+  }
+
+  .career-border-container {
+    width: 30vw;
+  }
+
+  .bottom-half {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .skills-container {
+    width: 50vw;
+  }
+
+  .skills-border-container {
+    border-bottom: none;
+  }
+
+  .currently-working-on-container {
+    width: 50vw
+  }
+
+  .currently-working-on-container::after {
+    border-right: none;
+  }
 }
