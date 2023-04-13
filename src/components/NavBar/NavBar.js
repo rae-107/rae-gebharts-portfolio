@@ -4,9 +4,9 @@ import './NavBar.css'
 export const NavBar = () => {
   return (
     <nav>
-      <NavLink >Projects</NavLink>
-      <NavLink>About</NavLink>
-      <NavLink>Contact</NavLink>
+      <NavLink to={'/projects'} >Projects</NavLink>
+      <NavLink to={'/'} >About</NavLink>
+      <NavLink to={'/'} >Contact</NavLink>
     </nav>
   )
 }

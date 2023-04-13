@@ -12,4 +12,7 @@ nav a {
   color: #424B4D;
   font-size: 20px;
   margin: 5px;
+}
+nav a.active {
+  font-weight: bold;
 }/*# sourceMappingURL=NavBar.css.map */
