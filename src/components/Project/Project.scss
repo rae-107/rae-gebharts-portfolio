@@ -1,0 +1,17 @@
+@use '../../../abstract/variables' as *;
+
+.project {
+  height: 350px;
+  width: 350px;
+  background-color: $primary;
+  border-radius: 40px;
+  margin: 40px auto 20px
+}
+
+.project-image {
+  height: 200px;
+  width: 315px;
+  padding: 20px;
+  border-radius: 40px;
+}
+
