@@ -62,3 +62,172 @@
 
 
 }
+
+
+
+// @use "../../../abstract/variables" as *;
+
+// .projects {
+//   background-color: $secondary;
+//   color: $cream;
+//   height: 100vh;
+//   width: 100vw;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   overflow-y: scroll;
+//   text-align: center;
+// }
+
+// .project-container {
+//   width: 80vw;
+//   display: flex;
+//   flex-direction: column;
+//   flex-wrap: wrap;
+//   justify-content: space-between;
+// }
+
+// .first-project,
+// .second-project,
+// .third-project {
+//   width: 100%;
+// }
+
+// @media screen and (min-width: 580px) {
+//   .first-project,
+//   .third-project {
+//     width: 50%;
+//   }
+
+//   .second-project {
+//     width: 50%;
+//     align-self: flex-end;
+//   }
+
+//   .project-container {
+//     flex-wrap: nowrap;
+//   }
+// }
+
+// @media screen and (min-width: 1050px) {
+//   .project-container {
+
+//   }
+
+//   .second-project {
+//     align-self: center;
+//   }
+
+//   .third-project {
+//     align-self: flex-end;
+//   }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// @use "../../../abstract/variables" as *;
+
+// .projects {
+//   background-color: $secondary;
+//   color: $cream;
+//   height: 100vh;
+//   width: 100vw;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   overflow-y: scroll;
+//   text-align: center;
+// }
+
+// .project-container {
+//   width: 80vw;
+//   display: flex;
+//   flex-wrap: wrap;
+// }
+
+// .first-project,
+// .second-project,
+// .third-project {
+//   height: 410px;
+// }
+
+// .first-project {
+//   order: 1;
+// }
+
+// .second-project {
+//   order: 2;
+// }
+
+// .third-project {
+//   order: 3;
+// }
+
+// @media screen and (min-width: 720px) {
+//   // .project-container {
+//   //   flex-direction: row;
+//   // }
+
+//   // .second-project {
+//   //   margin-top: 300px;
+//   // }
+
+// }
+
+// @media screen and (min-width: 880px) {
+//   // .first-project,
+//   // .second-project,
+//   // .third-project {
+//   //   height: 91vh
+//   // }
+// }
+
+// @media screen and (min-width: 1050px) {
+//   // .project-container {
+
+//   // }
+
+// }
+
+// @media screen and (min-width: 1200px) {
+// .first-project {
+//     order: 1;
+//     width: 33.33%;
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//   }
+
+//   .second-project {
+//     order: 2;
+//     width: 33.33%;
+//     margin: auto;
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     right: 0;
+//     bottom: 0;
+//   }
+
+//   .third-project {
+//     order: 3;
+//     width: 33.33%;
+//     position: absolute;
+//     bottom: 0;
+//     right: 0;
+//   }
+// }
