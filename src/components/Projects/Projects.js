@@ -7,15 +7,27 @@ export const Projects = () => {
     <div className="projects">
       <NavBar />
       <div className="project-container">
-        <div className="first-project">
+        <a
+          href="https://garden-grow-fe.vercel.app/"
+          target="_blank"
+          className="first-project"
+        >
           <Project name="Garden Grow" img="/assets/garden-grow.png" />
-        </div>
-        <div className="second-project">
+        </a>
+        <a
+          href="https://lav-link-smithkirsten.vercel.app/"
+          target="_blank"
+          className="second-project"
+        >
           <Project name="Lav Link" img="/assets/lav-link.png" />
-        </div>
-        <div className="third-project">
+        </a>
+        <a
+          href="https://ghibli-stream.vercel.app/"
+          target="_blank"
+          className="third-project"
+        >
           <Project name="Ghibli Stream" img="/assets/ghibli-stream.png" />
-        </div>
+        </a>
       </div>
     </div>
   );
