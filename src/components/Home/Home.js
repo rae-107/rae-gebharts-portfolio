@@ -4,11 +4,7 @@ import { NavBar } from "../NavBar/NavBar";
 const Home = () => {
   return (
     <div className="home">
-      <div className="nav-container">
-        <div className="nav-style-box"></div>
-        <NavBar />
-        <img className="home-icon" alt="Home Button" src="/assets/home-stencil.png" />
-      </div>
+      <NavBar />
       <div className="top-half">
         <div className="intro-container">
           <div className="image-container">
@@ -36,8 +32,7 @@ const Home = () => {
               <br />
               Today, I'm a front-end software developer with a passion for
               creating beautiful and intuitive user experiences. I have
-              experience working with JavaScript, React, Redux, TypeScript,
-              Integration testing and E2E testing, and I'm constantly expanding
+              experience working with JavaScript, React, Redux, Unit testing and E2E testing, and I'm constantly expanding
               my skillset and exploring new technologies.
               <br />
               <br />
