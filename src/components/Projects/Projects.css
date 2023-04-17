@@ -11,7 +11,7 @@
 }
 
 .project-container {
-  width: 80vw;
+  width: 90vw;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -38,8 +38,12 @@
   .project-container {
     flex-direction: row;
   }
+  .first-project,
+  .third-project {
+    height: 410px;
+  }
 }
-@media screen and (min-width: 880px) {
+@media screen and (min-width: 1170px) {
   .first-project,
   .second-project,
   .third-project {
