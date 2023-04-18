@@ -12,13 +12,13 @@ export const About = () => {
             <h1>Rae Gebhart</h1>
           </div>
         </div>
-        <div className="title-container">
-          <div className="title-border-container">
+        <div className="hobbies-container">
+          <div className="hobbies-border-container">
             <h2 className="hobbies-title">Hobbies</h2>
           </div>
         </div>
-        <div className="career-summary-container">
-          <div className="career-border-container">
+        <div className="my-summary-container">
+          <div className="summary-border-container">
             <h2>My Story</h2>
             <p>
               <br />
@@ -32,13 +32,13 @@ export const About = () => {
         </div>
       </div>
       <div className="bottom-half">
-        <div className="skills-container">
-          <div className="skills-border-container">
+        <div className="certificate-container">
+          <div className="certificate-border-container">
             <h2>Certificate</h2>
           </div>
         </div>
-        <div className="currently-working-on-container">
-          <div className="currently-working-on-border-container">
+        <div className="accomplishments-container">
+          <div className="accomplishments-container">
             <h2>Professional Accomplishments</h2>
           </div>
         </div>
