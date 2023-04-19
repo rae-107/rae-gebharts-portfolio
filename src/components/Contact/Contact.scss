@@ -1,2 +1,66 @@
-@use '../../../abstract/variables' as *;
+@use "../../../abstract/variables" as *;
 
+.contact-page {
+  background-color: $secondary;
+  height: 100vh;
+  width: 100vw;
+  overflow-y: scroll;
+  color: $cream;
+  text-align: center;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.raes-header {
+  font-weight: 100;
+}
+
+.social-medias {
+  display: flex;
+}
+
+iframe {
+  width: 90%;
+  height: 500px;
+}
+
+.references-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+}
+
+.references {
+  font-weight: 100;
+}
+
+.reference {
+  background-color: $primary;
+  opacity: 0.9;
+  border-radius: 40px;
+  width: 90%;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 1000px) {
+  .contact-container {
+    display: flex;
+  }
+
+  .contact {
+    width: 50vw;
+  }
+
+  iframe {
+    height: 1867px;
+  }
+
+  .references-container {
+    width: 50vw;
+  }
+}
