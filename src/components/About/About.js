@@ -90,7 +90,7 @@ export const About = () => {
           </div>
         </div>
         <div className="accomplishments-container">
-          <div className="accomplishments-container">
+          <div className="accomplishments-border-container">
             <h2>Professional Accomplishments</h2>
             <p>~ Self-Learned GraphQL, Redux, SASS, and PostgreSQL ~</p>
             <p>~ Obtained valuable experience in handling high-pressure situations and leading teams at a young age, instilling a strong work ethic and sense of responsibility that is applied to my professional endeavors. ~</p>
