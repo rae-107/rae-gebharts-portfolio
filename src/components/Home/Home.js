@@ -56,6 +56,9 @@ const Home = () => {
       <div className="bottom-half">
         <div className="skills-container">
           <div className="skills-border-container">
+            <h2></h2>
+            <h2></h2>
+            <h2></h2>
             <h2>Skills</h2>
             <h3>Languages</h3>
             <p>JavaScript | HTML | CSS | SASS </p>
