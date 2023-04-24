@@ -74,9 +74,9 @@ const Home = () => {
         <div className="currently-working-on-container">
           <div className="currently-working-on-border-container">
             <h2>Currently Working On</h2>
-            <p>~TypeScript~</p>
-            <p>~Node.js~</p>
-            <p>~Express~</p>
+            <p>~Learning how to build a database with PostgreSQL~</p>
+            <p>~Teaching myself Node.js and Express to build a server that will connect to the database~</p>
+            <p>~Implementing a login page to a recipe tracking application~</p>
           </div>
         </div>
       </div>
