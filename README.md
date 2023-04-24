@@ -7,12 +7,12 @@
 </div>
 
   <p align="center">
-    <a href="https://github.com/rae-107/ghibli-stream"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/rae-107/rae-gebharts-portfolio"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/rae-107/ghibli-stream/issues">Report Bug</a>
+    <a href="https://github.com/rae-107/rae-gebharts-portfolio/issues">Report Bug</a>
     ·
-    <a href="https://github.com/rae-107/ghibli-stream/issues">Request Feature</a>
+    <a href="https://github.com/rae-107/rae-gebharts-portfolio/issues">Request Feature</a>
   </p>
 
 </div>
