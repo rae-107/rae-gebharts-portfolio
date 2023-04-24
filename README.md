@@ -37,8 +37,6 @@
 
 [//]: <> (Briefly describe what you built and its features. What problem is the app solving? How does this application solve that problem?)
 
-Ghibli Stream is an adaptive React application that displays all the studio ghibli films. Users can search through all movies and click on each to show that movies details. Users can save a movie to their favorites list or watched list. There is an additional movie view of watch list that is all the movies that a user hasn't watched so that a user can better keep track of studio ghibli movies that they still need to watch. Implements local storage to allow user's lists to persist upon refresh or page termination.
-  
 </div>
 
 ---
@@ -47,10 +45,10 @@ Ghibli Stream is an adaptive React application that displays all the studio ghib
 
 [//]: <> (What steps does a person have to take to get your app cloned down and running?)
 
-1. Fork the Repo from the [Repository](https://github.com/rae-107/ghibli-stream)
+1. Fork the Repo from the [Repository](https://github.com/rae-107/rae-gebharts-portfolio)
 2. Clone the repo
    ```sh
-   git clone git@github.com:rae-107/ghibli-stream.git
+   git clone git@github.com:rae-107/rae-gebharts-portfolio.git
    ```
 3. Install NPM packages
    ```sh
@@ -69,7 +67,7 @@ Ghibli Stream is an adaptive React application that displays all the studio ghib
   
 ## Deployed Link
 
-[Deployed Link](https://ghibli-stream.vercel.app/)
+[Deployed Link](https://rae-gebharts-professional-portfolio.vercel.app/)
 
 
 ---
@@ -77,7 +75,6 @@ Ghibli Stream is an adaptive React application that displays all the studio ghib
 ## Preview of App:
 [//]: <> (Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off.)
 
- ![ezgif com-video-to-gif](https://user-images.githubusercontent.com/113261334/222940826-2b080727-a6f3-4915-8e61-8ee094e6ad20.gif)
 
   
 
@@ -88,7 +85,6 @@ Ghibli Stream is an adaptive React application that displays all the studio ghib
 <div>
   <img src="https://img.shields.io/badge/-react-333333?logo=react&style=for-the-badge" width="100" height="30"/>
   <img src="https://img.shields.io/badge/-react%20router-f44250?logo=react%20router&logoColor=white&style=for-the-badge" width="140" height="30"/>
-  <img src="https://img.shields.io/badge/-cypress-007780?logo=cypress&logoColor=white&style=for-the-badge" width="100" height="30"/>
   <img src="https://img.shields.io/badge/-CSS3-315780?logo=css3&style=for-the-badge" width="100" height="30"/>
   <img src="https://img.shields.io/badge/-sass-c69?logo=sass&logoColor=white&style=for-the-badge" width="100" height="30"/>  
   <img src="https://img.shields.io/badge/-npm-c12127?logo=npm&logoColor=white&style=for-the-badge" width="80"  height="30"/>
@@ -112,7 +108,7 @@ Ghibli Stream is an adaptive React application that displays all the studio ghib
   <a href="mailto: raegebhart@gmail.com">
     <img src="https://img.shields.io/badge/-gmail-red?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail Badge">
   </a>
-</div>
+
 
 ---
 
