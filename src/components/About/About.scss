@@ -73,7 +73,7 @@
   border-radius: 40px;
 }
 
-// Title
+// Hobbies
 
 .hobbies-container {
   flex-basis: 100%; //here
@@ -112,7 +112,7 @@
 }
 
 .hobbies-border-container {
-  width: 280px;
+  width: 80%;
   height: 60vh;
   border-bottom: 1px solid $cream;
   display: flex;
@@ -121,7 +121,7 @@
   align-items: center;
 }
 
-// Career Summary
+// My Story 
 
 .my-summary-container {
   flex-basis: 100%; // here
@@ -173,7 +173,7 @@
   height: 0;
 }
 
-// Skills
+// Certificate
 
 .certificate-container {
   width: 80vw;
