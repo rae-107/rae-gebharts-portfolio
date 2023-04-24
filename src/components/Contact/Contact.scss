@@ -43,11 +43,12 @@ iframe {
   background-color: $primary;
   opacity: 0.9;
   border-radius: 40px;
-  width: 90%;
+  width: 85%;
   margin-bottom: 30px;
+  padding: 10px;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 920px) {
   .contact-container {
     display: flex;
   }
@@ -57,10 +58,14 @@ iframe {
   }
 
   iframe {
-    height: 1867px;
+    height: 1650px;
   }
 
   .references-container {
     width: 50vw;
+  }
+
+  .reference {
+    width: 75%;
   }
 }
