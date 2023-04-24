@@ -278,7 +278,7 @@
     max-width: 100vw;
   }
   .career-border-container {
-    width: 80vw;
+    width: 65%;
   }
 }
 @media screen and (min-width: 900px) {
