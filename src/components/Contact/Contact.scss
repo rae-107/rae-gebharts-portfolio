@@ -25,7 +25,7 @@
 
 iframe {
   width: 90%;
-  height: 500px;
+  height: auto;
 }
 
 .references-container {
@@ -58,11 +58,12 @@ iframe {
   }
 
   iframe {
-    height: 1650px;
+    height: 80vh;
   }
 
   .references-container {
     width: 50vw;
+    height: 90vh;
   }
 
   .reference {

@@ -11,11 +11,29 @@ export const Contact = () => {
             Rae Gebhart's <br />
             Contact Information
           </h2>
-          <iframe src="https://docs.google.com/document/d/e/2PACX-1vSlRm-VVHGZ2Na8YNK-CuxyIMsYj2L_YYy_-XqqKyEb1zrLfuDFIGLvGiHc4XiXZ-ZyR7q_YPOsFPd5/pub?embedded=true"></iframe>
+          <iframe title="Rae's Resume" src="https://docs.google.com/document/d/e/2PACX-1vSlRm-VVHGZ2Na8YNK-CuxyIMsYj2L_YYy_-XqqKyEb1zrLfuDFIGLvGiHc4XiXZ-ZyR7q_YPOsFPd5/pub?embedded=true"></iframe>
         </div>
         <div className="references-container">
           <h2 className="references">References</h2>
-          <div className="reference" >
+          <div className="reference">
+            <p>
+              I strongly recommend Rae for any software engineering role. Her
+              friendly and approachable demeanor made her a pleasure to work
+              with and an exceptional team player. Rae's ability to quickly
+              grasp new technologies and apply them to our project was
+              impressive and a reflection of her overall strength as a software
+              engineer. Her technical expertise and dedication to her work were
+              invaluable to the success of our project. I would welcome the
+              opportunity to work with Rae again, and I am confident that she
+              would be an asset to any team.
+              <br />
+              <br />
+              April 19th, 2023
+              <br />
+              <strong>Tristin Sorrells</strong>
+            </p>
+          </div>
+          <div className="reference">
             <p>
               I only had the chance to work with Rae on one project, but it was
               an excellent experience. We were learning a new technology during
@@ -30,7 +48,7 @@ export const Contact = () => {
               <strong>Rick Vermil</strong>
             </p>
           </div>
-          <div className="reference" >
+          <div className="reference">
             <p>
               I had the pleasure of working with Rae and can confidently say
               that she is an exceptional software developer. Her technical
@@ -57,7 +75,7 @@ export const Contact = () => {
               <strong>Karim Al-Rashdan</strong>
             </p>
           </div>
-          <div className="reference" >
+          <div className="reference">
             <p>
               I was lucky enough to work with Rae on 2 back-to-back projects.
               Rae is a strong developer with a solid understanding of
@@ -79,7 +97,7 @@ export const Contact = () => {
               <strong>Kirsten Smith</strong>
             </p>
           </div>
-          <div className="reference" >
+          <div className="reference">
             <p>
               Having Rae in the group project was a blessing. Rae brought strong
               problem-solving skills to the team, especially when writing
@@ -97,7 +115,7 @@ export const Contact = () => {
               <strong>Patt Sookmark</strong>
             </p>
           </div>
-          <div className="reference" >
+          <div className="reference">
             <p>
               I would recommend Rae Gebhart for any software development
               opportunity. I had the pleasure of attending Turing School of
