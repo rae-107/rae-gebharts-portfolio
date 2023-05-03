@@ -8,6 +8,7 @@ export const Projects = () => {
       <NavBar />
       <div className="project-container">
         <a
+          rel="noreferrer"
           href="https://garden-grow-fe.vercel.app/"
           target="_blank"
           className="first-project"
@@ -15,6 +16,7 @@ export const Projects = () => {
           <Project name="Garden Grow" img="/assets/garden-grow.png" />
         </a>
         <a
+          rel="noreferrer"
           href="https://lav-link-smithkirsten.vercel.app/"
           target="_blank"
           className="second-project"
@@ -22,6 +24,7 @@ export const Projects = () => {
           <Project name="Lav Link" img="/assets/lav-link.png" />
         </a>
         <a
+          rel="noreferrer"
           href="https://ghibli-stream.vercel.app/"
           target="_blank"
           className="third-project"

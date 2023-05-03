@@ -82,11 +82,7 @@ export const About = () => {
         <div className="certificate-container">
           <div className="certificate-border-container">
             <h2>Certificate</h2>
-            <p>
-              Coming very soon
-              <br />
-              April 27th, 2023
-            </p>
+            <img alt="Rae Gebhart's certificate of complettion in the front-end engineering program" src="/assets/certificate.jpeg" className="certificate" />
           </div>
         </div>
         <div className="accomplishments-container">

@@ -159,7 +159,7 @@
 }
 
 .summary-border-container {
-  width: 65%;
+  width: 80%;
   height: 60vh;
   border-bottom: 1px solid $cream;
   display: flex;
@@ -175,9 +175,16 @@
 
 // Certificate
 
+.bottom-half {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 .certificate-container {
   width: 80vw;
   height: 340px;
+  max-width: 350px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -218,8 +225,14 @@
   flex-direction: column;
 }
 
+.certificate {
+  width: 160px;
+  height: 240px;
+}
+
 .accomplishments-container {
   width: 80vw;
+  max-width: 350px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -300,6 +313,11 @@
   .summary-border-container {
     width: 65%;
   }
+
+  .certificate-container,
+  .accomplishments-container {
+    max-width: none;
+  }
 }
 
 // Media at 900px
@@ -340,7 +358,6 @@
   }
 
   .bottom-half {
-    display: flex;
     flex-direction: row;
   }
 
