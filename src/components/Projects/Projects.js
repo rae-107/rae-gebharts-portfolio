@@ -9,7 +9,7 @@ export const Projects = () => {
       <div className="project-container">
         <a
           rel="noreferrer"
-          href="https://garden-grow-fe.vercel.app/"
+          href="https://garden-grow.vercel.app/"
           target="_blank"
           className="first-project"
         >
