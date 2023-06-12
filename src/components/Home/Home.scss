@@ -184,6 +184,7 @@
 .skills-container {
   height: 40vh;
   width: 80vw;
+  max-width: 350px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -234,6 +235,7 @@
 .currently-working-on-container {
   width: 80vw;
   position: relative;
+  max-width: 350px;
   display: flex;
   justify-content: center;
   h2 {

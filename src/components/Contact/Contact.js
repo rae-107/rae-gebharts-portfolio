@@ -39,10 +39,13 @@ export const Contact = () => {
             </a>
           </div>
         </div>
+        <h2 className="references">References</h2>
         <div className="references-container">
-          <h2 className="references">References</h2>
           <div className="reference">
             <p>
+              <strong>Tristin Sorrells</strong>
+              <br />
+              <br />
               I strongly recommend Rae for any software engineering role. Her
               friendly and approachable demeanor made her a pleasure to work
               with and an exceptional team player. Rae's ability to quickly
@@ -55,12 +58,13 @@ export const Contact = () => {
               <br />
               <br />
               April 19th, 2023
-              <br />
-              <strong>Tristin Sorrells</strong>
             </p>
           </div>
           <div className="reference">
             <p>
+              <strong>Rick Vermil</strong>
+              <br />
+              <br />
               I only had the chance to work with Rae on one project, but it was
               an excellent experience. We were learning a new technology during
               the build and thanks to Rae's problem-solving abilities,
@@ -70,12 +74,13 @@ export const Contact = () => {
               <br />
               <br />
               April 12th, 2023
-              <br />
-              <strong>Rick Vermil</strong>
             </p>
           </div>
           <div className="reference">
             <p>
+              <strong>Karim Al-Rashdan</strong>
+              <br />
+              <br />
               I had the pleasure of working with Rae and can confidently say
               that she is an exceptional software developer. Her technical
               expertise and problem-solving skills are truly impressive. During
@@ -97,12 +102,13 @@ export const Contact = () => {
               <br />
               <br />
               April 9th, 2023
-              <br />
-              <strong>Karim Al-Rashdan</strong>
             </p>
           </div>
           <div className="reference">
             <p>
+              <strong>Kirsten Smith</strong>
+              <br />
+              <br />
               I was lucky enough to work with Rae on 2 back-to-back projects.
               Rae is a strong developer with a solid understanding of
               fundamentals and a curious, open-minded attitude that serves her
@@ -119,12 +125,13 @@ export const Contact = () => {
               <br />
               <br />
               March 3rd, 2023
-              <br />
-              <strong>Kirsten Smith</strong>
             </p>
           </div>
           <div className="reference">
             <p>
+              <strong>Patt Sookmark</strong>
+              <br />
+              <br />
               Having Rae in the group project was a blessing. Rae brought strong
               problem-solving skills to the team, especially when writing
               javascript methods and setting up TDD. She is very creative and it
@@ -137,12 +144,13 @@ export const Contact = () => {
               <br />
               <br />
               February 4th, 2023
-              <br />
-              <strong>Patt Sookmark</strong>
             </p>
           </div>
           <div className="reference">
             <p>
+              <strong>Jordan Smith</strong>
+              <br />
+              <br />
               I would recommend Rae Gebhart for any software development
               opportunity. I had the pleasure of attending Turing School of
               Software and Design with Rae and can attest to her exceptional
@@ -169,8 +177,6 @@ export const Contact = () => {
               <br />
               <br />
               February 1st, 2023
-              <br />
-              <strong>Jordan Smith</strong>
             </p>
           </div>
         </div>

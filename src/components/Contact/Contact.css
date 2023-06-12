@@ -3,7 +3,6 @@
   height: 100vh;
   width: 100vw;
   overflow-y: scroll;
-  color: #FFFBF5;
   text-align: center;
 }
 
@@ -29,9 +28,10 @@
 }
 
 .references-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: grid;
+  width: 100%;
+  justify-items: center;
+  grid-template-columns: repeat(1, 1fr);
   overflow-y: scroll;
 }
 
@@ -44,22 +44,33 @@
   opacity: 0.9;
   border-radius: 40px;
   width: 85%;
+  height: 300px;
   margin-bottom: 30px;
-  padding: 10px;
+  padding: 20px;
+  overflow-y: scroll;
 }
 
-@media screen and (min-width: 920px) {
-  .contact-container {
-    display: flex;
-  }
-  .contact {
-    width: 50vw;
+@media screen and (min-width: 620px) {
+  .linked-in,
+  .github,
+  .gmail,
+  .resume {
+    width: 65px;
   }
   .references-container {
-    width: 50vw;
-    height: 90vh;
+    grid-template-columns: repeat(2, 1fr);
   }
-  .reference {
-    width: 75%;
+}
+@media screen and (min-width: 780px) {
+  .linked-in,
+  .github,
+  .gmail,
+  .resume {
+    width: 80px;
+  }
+}
+@media screen and (min-width: 1020px) {
+  .references-container {
+    grid-template-columns: repeat(3, 1fr);
   }
 }/*# sourceMappingURL=Contact.css.map */

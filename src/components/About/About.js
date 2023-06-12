@@ -18,7 +18,7 @@ export const About = () => {
         </div>
         <div className="hobbies-container">
           <div className="hobbies-border-container">
-            <h2 className="hobbies-title">~ A Few of My Hobbies Are ~</h2>
+            <h2 className="hobbies-title"> Hobbies </h2>
             <p align="center">
               <strong>Hiking!</strong> 🥾 I'm an avid hiker. I've hiked 10 out
               of the 54 fourteeners in CO. One of my goals is to say that I've
@@ -81,15 +81,15 @@ export const About = () => {
       <div className="bottom-half">
         <div className="certificate-container">
           <div className="certificate-border-container">
-            <h2>Certificate</h2>
-            <img alt="Rae Gebhart's certificate of complettion in the front-end engineering program" src="/assets/certificate.jpeg" className="certificate" />
+            <h2>Credentials</h2>
+            <p>Certificate of Complettion in the Front-End Engineering Program at Turing School of Software & Design</p>
           </div>
         </div>
         <div className="accomplishments-container">
           <div className="accomplishments-border-container">
             <h2>Professional Accomplishments</h2>
-            <p>~ Self-Learned GraphQL, Redux, SASS, and PostgreSQL ~</p>
-            <p>~ Obtained valuable experience in handling high-pressure situations and leading teams at a young age, instilling a strong work ethic and sense of responsibility that is applied to my professional endeavors. ~</p>
+            <p>~ Self-Learned GraphQL, Redux, SASS, and PostgreSQL </p>
+            <p>~ Obtained valuable experience in handling high-pressure situations and leading teams at a young age, instilling a strong work ethic and sense of responsibility that is applied to my professional endeavors. </p>
           </div>
         </div>
       </div>
