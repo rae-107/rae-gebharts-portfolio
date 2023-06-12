@@ -7,11 +7,37 @@ export const Contact = () => {
       <NavBar />
       <div className="contact-container">
         <div className="contact">
-          <h2 className="raes-header">
-            Rae Gebhart's <br />
-            Contact Information
-          </h2>
-          <iframe title="Rae's Resume" src="https://docs.google.com/document/d/e/2PACX-1vSlRm-VVHGZ2Na8YNK-CuxyIMsYj2L_YYy_-XqqKyEb1zrLfuDFIGLvGiHc4XiXZ-ZyR7q_YPOsFPd5/pub?embedded=true"></iframe>
+          <h2 className="contact-information">Contact Information</h2>
+          <div className="socials-container">
+            <a href="https://www.linkedin.com/in/rae-gebhart/" target="_blank">
+              <img
+                className="linked-in"
+                src="/assets/linkedIn.png"
+                alt="Rae Gebhart's LinkedIn Profile"
+              />
+            </a>
+            <a href="https://github.com/rae-107" target="_blank">
+              <img
+                className="github"
+                src="/assets/github.png"
+                alt="Rae Gebhart's GitHub account"
+              />
+            </a>
+            <a href="https://docs.google.com/document/d/11ixPuvhXy8zjQoEgTRbY22L6p-_kk25RHeiuX0fHpQk/edit" target="_blank">
+              <img
+                className="resume"
+                src="/assets/resume.png"
+                alt="Rae Gebhart's Resume"
+              />
+            </a>
+            <a href="mailto: raegebhart@gmail.com" target="_blank">
+              <img
+                className="gmail"
+                src="/assets/gmail.png"
+                alt="Rae Gebhart's Email"
+              />
+            </a>
+          </div>
         </div>
         <div className="references-container">
           <h2 className="references">References</h2>
@@ -149,6 +175,21 @@ export const Contact = () => {
           </div>
         </div>
       </div>
+      <a target="_blank" href="https://icons8.com/icon/447/linkedin">
+        LinkedIn
+      </a>{" "}
+      icon by{" "}
+      <a target="_blank" href="https://icons8.com">
+        Icons8
+      </a>
+      <br />
+      <a target="_blank" href="https://icons8.com/icon/rUgzXdXFnhmg/gmail">
+        Gmail
+      </a>{" "}
+      icon by{" "}
+      <a target="_blank" href="https://icons8.com">
+        Icons8
+      </a>
     </div>
   );
 };
