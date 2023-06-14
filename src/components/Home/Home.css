@@ -172,10 +172,9 @@
 }
 
 .skills-container {
-  height: 40vh;
   width: 80vw;
-  max-width: 350px;
   position: relative;
+  max-width: 350px;
   display: flex;
   justify-content: center;
 }
@@ -208,10 +207,6 @@
 .skills-border-container {
   width: 80%;
   border-bottom: 1px solid #FFFBF5;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
   overflow-y: scroll;
   padding-bottom: 20px;
 }
@@ -294,6 +289,10 @@
   }
   .career-summary-container::after {
     border-right: none;
+  }
+  .skills-container,
+  .currently-working-on-container {
+    max-width: 100%;
   }
 }
 @media screen and (min-width: 900px) {

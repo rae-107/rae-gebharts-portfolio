@@ -20,7 +20,7 @@ export const About = () => {
           <div className="hobbies-border-container">
             <h2 className="hobbies-title"> Hobbies </h2>
             <p align="center">
-              <strong>Hiking!</strong> 🥾 I'm an avid hiker. I've hiked 10 out
+              <strong>Hiking!</strong> 🥾 I'm an avid hiker. I've hiked 11 out
               of the 54 fourteeners in CO. One of my goals is to say that I've
               hiked all of them.{" "}
             </p>
@@ -30,7 +30,7 @@ export const About = () => {
             </p>
             <p align="center">
               <strong>Video Games!</strong> 🎮 Some of my favorite games are:
-              Breathe of The Wild, Elden Ring and the Halo series.
+              Legend of Zelda, Dark Souls and the Halo series.
             </p>
           </div>
         </div>
@@ -88,7 +88,7 @@ export const About = () => {
         <div className="accomplishments-container">
           <div className="accomplishments-border-container">
             <h2>Professional Accomplishments</h2>
-            <p>~ Self-Learned GraphQL, Redux, SASS, and PostgreSQL </p>
+            <p>~ Self-Learned GraphQL, Redux, SASS, Node.js with Express and MySQL </p>
             <p>~ Obtained valuable experience in handling high-pressure situations and leading teams at a young age, instilling a strong work ethic and sense of responsibility that is applied to my professional endeavors. </p>
           </div>
         </div>

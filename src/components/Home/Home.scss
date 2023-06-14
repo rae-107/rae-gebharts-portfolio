@@ -182,10 +182,10 @@
 // Skills
 
 .skills-container {
-  height: 40vh;
+  // height: 40vh;
   width: 80vw;
-  max-width: 350px;
   position: relative;
+  max-width: 350px;
   display: flex;
   justify-content: center;
   h2 {
@@ -217,12 +217,7 @@
 
 .skills-border-container {
   width: 80%;
-  // height: 500px;
   border-bottom: 1px solid $cream;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
   overflow-y: scroll;
   padding-bottom: 20px;
 }
@@ -314,6 +309,11 @@
 
   .career-summary-container::after {
     border-right: none;
+  }
+
+  .skills-container,
+  .currently-working-on-container {
+    max-width: 100%;
   }
 }
 
