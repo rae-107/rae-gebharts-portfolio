@@ -20,7 +20,7 @@ export const About = () => {
           <div className="hobbies-border-container">
             <h2 className="hobbies-title"> Hobbies </h2>
             <p align="center">
-              <strong>Hiking!</strong> 🥾 I'm an avid hiker. I've hiked 11 out
+              <strong>Hiking!</strong> 🥾 I'm an avid hiker. I've hiked 27 out
               of the 54 fourteeners in CO. One of my goals is to say that I've
               hiked all of them.{" "}
             </p>
