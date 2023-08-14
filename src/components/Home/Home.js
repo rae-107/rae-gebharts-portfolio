@@ -61,13 +61,13 @@ const Home = () => {
             <p></p>
             <h2>Skills</h2>
             <h3>Languages</h3>
-            <p>JavaScript | HTML | CSS | SASS </p>
+            <p>JavaScript | HTML | CSS | SASS | SQL </p>
             <h3>Frameworks & Tools</h3>
             <p>
               React | React Router | Redux | GraphQL | RestAPI| E2E | Cypress |
               TDD | Mocha/Chai | ARIA | Accessibility Practices | Agile
               Methodologies | NPM | GitHub | Git | VScode | Wireframing | Figma
-              | Postman
+              | Postman | Node.js | Express
             </p>
           </div>
         </div>
