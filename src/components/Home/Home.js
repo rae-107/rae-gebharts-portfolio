@@ -74,9 +74,9 @@ const Home = () => {
         <div className="currently-working-on-container">
           <div className="currently-working-on-border-container">
             <h2>Currently Working On</h2>
-            <p>~Learning how to build a database with MySQL~</p>
-            <p>~Teaching myself Node.js and Express to build a server that will connect to that database~</p>
-            <p>~Implementing a login page to a recipe tracking application~</p>
+            <p>~Learning cloud technologies~</p>
+            <p>~Touching up on my UI skills~</p>
+            <p>~Challenging my logic skills with coding problems~</p>
           </div>
         </div>
       </div>
