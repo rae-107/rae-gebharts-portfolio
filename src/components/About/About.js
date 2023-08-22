@@ -82,7 +82,7 @@ export const About = () => {
         <div className="certificate-container">
           <div className="certificate-border-container">
             <h2>Credentials</h2>
-            <p>Certificate of Complettion in the Front-End Engineering Program at Turing School of Software & Design</p>
+            <p>Certificate of Completion in the Front-End Engineering Program at Turing School of Software & Design</p>
           </div>
         </div>
         <div className="accomplishments-container">
