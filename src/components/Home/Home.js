@@ -21,34 +21,16 @@ const Home = () => {
         <div className="career-summary-container">
           <div className="career-border-container">
             <h2>Career Summary</h2>
-            <p>
-              As a former restaurant industry professional with nine years of
-              experience, I know how to work hard, manage high-stress
-              environments, and deliver results in fast-paced settings. But I'm
-              also a curious and ambitious individual who's always looking for
-              new challenges and opportunities to learn and grow. That's why I
-              made the decision to pivot my career into software development.
+            <p> I'm a front-end software developer with a background in the restaurant industry and a strong focus on building maintainable, intuitive user experiences. After nearly a decade managing fast-paced, high-stress environments, I transitioned into software development—drawn by the challenge of solving complex problems and the creativity of writing clean, thoughtful code.
               <br />
               <br />
-              Today, I'm a front-end software developer with a passion for
-              creating beautiful and intuitive user experiences. I have
-              experience working with JavaScript, React, Redux, Unit testing and E2E testing, and I'm constantly expanding
-              my skillset and exploring new technologies.
+              At Edelweiss, a B2B platform serving publishers and booksellers, I contributed to a large-scale migration from a legacy VB.NET/ASPX app to a modern React + TypeScript frontend. I collaborated cross-functionally to ensure feature parity, troubleshoot bugs, and build reusable UI components using Material UI. My communication skills—shaped by years in people-first roles—help me thrive in co-working sessions, cross-team debugging, and user-specific investigations.
               <br />
               <br />
-              My past experience in the restaurant industry has given me
-              valuable skills that I've been able to apply to my work in
-              software development. I'm a quick learner, a natural
-              problem-solver, and I know how to work effectively as part of a
-              team. But I'm also comfortable taking on individual responsibility
-              and taking ownership of my work.
+              I'm constantly expanding my technical skillset, and I bring empathy, curiosity, and adaptability to every team I join. Whether I'm pair programming or picking up a new tool to unblock a project, I bring the same focus and drive I once brought to a Saturday night dinner rush.
               <br />
               <br />
-              If you're looking for a front-end developer who's ambitious,
-              hard-working, and has experience managing high-stress
-              environments, then I'm the candidate you've been searching for.
-              Let's connect and discuss how I can bring my skills and expertise
-              to your team.
+              If you're looking for a thoughtful, team-oriented developer who communicates well and isn’t afraid to dive into tough problems—I’d love to connect.
             </p>
           </div>
         </div>
